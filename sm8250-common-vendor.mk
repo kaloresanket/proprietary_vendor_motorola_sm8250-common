@@ -953,6 +953,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsuce-V1.2-java \
     android.hardware.neuralnetworks@1.3-service-qti \
     manifest_android.hardware.drm@1.3-service.widevine \
+    c2_manifest_vendor \
     vendor.qti.gnss@4.0-service
 
 PRODUCT_PACKAGES += \
