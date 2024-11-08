@@ -307,9 +307,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sm8250-common/proprietary/vendor/radio/qcril_database/upgrade/9_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/9_version_qcrildb.sql
 
 PRODUCT_PACKAGES += \
-    libspatialaudio.so \
-    libvideooptfeature.so \
-    libsurround_3mic_proc.so \
     eglSubDriverAndroid \
     libEGL_adreno \
     libGLESv1_CM_adreno \
