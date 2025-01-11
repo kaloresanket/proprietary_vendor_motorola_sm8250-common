@@ -724,6 +724,7 @@ PRODUCT_PACKAGES += \
     libimscamera_jni \
     libimsmedia_jni \
     libwfdnative \
+	libspatialaudio \
     vendor.qti.diaghal@1.0 \
     vendor.qti.imsrtpservice@3.0 \
     vendor.qti.imsrtpservice@3.1 \
