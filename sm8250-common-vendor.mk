@@ -561,6 +561,11 @@ PRODUCT_PACKAGES += \
     libtrustedapploader \
     libvl53l1_daemon \
     libwms \
+	libasphere \
+    libqcbassboost \
+    libqcreverb \
+    libqcvirt \
+    libshoebox \
     libwqe \
     libwvhidl \
     libxml \
