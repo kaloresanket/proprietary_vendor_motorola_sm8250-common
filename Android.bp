@@ -4333,38 +4333,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libspeakerbundle",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/soundfx/libspeakerbundle.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libtinyalsa",
-                "libutils",
-                "libcutils",
-                "libsensorndkbridge",
-                "libaudioroute",
-                "libgui_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "soundfx",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.wifidisplaysession@1.0-vendor",
     stem: "vendor.qti.hardware.wifidisplaysession@1.0",
     owner: "motorola",

@@ -418,7 +418,6 @@ PRODUCT_PACKAGES += \
     libwfdutils_proprietary \
     libmaxxeffect-cembedded \
     libmmieffectswrapper \
-    libspeakerbundle \
     vendor.qti.hardware.wifidisplaysession@1.0-vendor \
     vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl \
     com.qualcomm.qti.dpm.api@1.0-vendor \
